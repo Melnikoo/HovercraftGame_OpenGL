@@ -1,0 +1,19 @@
+﻿  GameEngine.cpp
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(21,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(25,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\GameEngine.cpp(4,104): warning C4091: 'static ': ignored on left of 'object' when no variable is declared
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\GameEngine.cpp(5,195): warning C4091: 'static ': ignored on left of 'buffers' when no variable is declared
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\GameEngine.cpp(354,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\GameEngine.cpp(389,20): warning C4018: '<': signed/unsigned mismatch
+  Player.cpp
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\GameEngine.cpp(523,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(21,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Sphere.cpp
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(25,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(21,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+  main.cpp
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(25,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(21,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(25,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Hovercraft.vcxproj -> C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Debug\Hovercraft.exe

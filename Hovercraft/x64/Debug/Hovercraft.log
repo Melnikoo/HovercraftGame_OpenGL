@@ -1,0 +1,95 @@
+﻿  Cone.cpp
+  Cube.cpp
+  GameEngine.cpp
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(25,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\GameEngine.cpp(4,104): warning C4091: 'static ': ignored on left of 'object' when no variable is declared
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\GameEngine.cpp(5,195): warning C4091: 'static ': ignored on left of 'buffers' when no variable is declared
+  GameObject.cpp
+  Obstacle.cpp
+  Player.cpp
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\GameEngine.cpp(370,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  RigidBody2D.cpp
+  Sphere.cpp
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(25,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  SphereCollider.cpp
+  main.cpp
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(25,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  particle.cpp
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\Player.h(25,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\particle.cpp(20,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+Cone.obj : error LNK2019: unresolved external symbol __imp_glutSolidCone referenced in function "public: virtual void __cdecl Cone::Draw(void)" (?Draw@Cone@@UEAAXXZ)
+Sphere.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Cube.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Obstacle.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Player.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Sphere.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Cube.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Obstacle.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Player.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function "public: void __cdecl GameEngine::StartEngine(void)" (?StartEngine@GameEngine@@QEAAXXZ)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "private: static void __cdecl GameEngine::UpdateGame(void)" (?UpdateGame@GameEngine@@CAXXZ)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "private: static void __cdecl GameEngine::DrawGame(void)" (?DrawGame@GameEngine@@CAXXZ)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutIdleFunc referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutSpecialFunc referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardUpFunc referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutSpecialUpFunc referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutGet referenced in function "private: static void __cdecl GameEngine::UpdateGame(void)" (?UpdateGame@GameEngine@@CAXXZ)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+GameEngine.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutInitContextVersion referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutInitContextFlags referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2019: unresolved external symbol __imp_glutInitContextProfile referenced in function "public: void __cdecl GameEngine::InitEngine(int,char * *,char const *,int,int)" (?InitEngine@GameEngine@@QEAAXHPEAPEADPEBDHH@Z)
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Obstacle.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Player.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Sphere.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Obstacle.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Player.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Sphere.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Obstacle.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Player.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Sphere.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewUniform1f
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewUniform4fv
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+Obstacle.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+Player.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+Sphere.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Obstacle.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Player.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Sphere.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewUniform1ui
+Obstacle.obj : error LNK2001: unresolved external symbol __imp___glewUniform1ui
+Player.obj : error LNK2001: unresolved external symbol __imp___glewUniform1ui
+Sphere.obj : error LNK2001: unresolved external symbol __imp___glewUniform1ui
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+GameEngine.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+GameEngine.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+particle.obj : error LNK2019: unresolved external symbol __imp_glutSolidSphere referenced in function "public: virtual void __cdecl Particle::Draw(void)" (?Draw@Particle@@UEAAXXZ)
+shader.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+shader.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+SphereCollider.obj : error LNK2019: unresolved external symbol __imp_glutWireSphere referenced in function "public: void __cdecl SphereCollider::Draw(void)" (?Draw@SphereCollider@@QEAAXXZ)
+freeglut.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\legog\Desktop\Melnikovs_8859789\Hovercraft\x64\Debug\Hovercraft.exe : fatal error LNK1120: 46 unresolved externals
